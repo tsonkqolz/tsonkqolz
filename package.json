@@ -1,0 +1,15 @@
+{
+  "name": "nyoba-js",
+  "version": "1.0.0",
+  "description": "tes",
+  "main": "tes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coba": "echo \"ooga\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
