@@ -1,1 +1,1 @@
-just thing i make for no reason
+haha chat go brr

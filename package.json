@@ -1,28 +1,18 @@
 {
-  "name": "tsonkqolz",
-  "version": "1.0.0",
-  "description": "just thing i make for no reason",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-generator": "^4.16.1",
-    "morgan": "^1.10.0",
-    "node-fetch": "^2.6.1",
-    "upper-case": "^2.0.2"
-  },
-  "devDependencies": {},
+  "name": "first-bois",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "SET DEBUG=first-bois:* & node ./bin/www",
+    "devstart": "SET DEBUG=first-bois:* & nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tsonkqolz/tsonkqolz.git"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "3.0.1"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tsonkqolz/tsonkqolz/issues"
-  },
-  "homepage": "https://github.com/tsonkqolz/tsonkqolz#readme",
-  "type": "module"
+  "engines": {"node": "v14.x"}
 }
