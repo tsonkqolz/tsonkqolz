@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  a(href="/new") create new chat  
+  div 
+    each val in messages.length ? messages : ['There are no values']
+      h4= val.user 
+      p= val.text 
+      br

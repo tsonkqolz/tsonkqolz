@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    h1 lol 
+    form(action="/new", method="post")
+        label(for="user") name: 
+        input(type="text" name="user" required) 
+        br
+        br
+        label(for="messageText") comment: 
+        br
+        textarea(name="messageText" cols="30" rows="5" required)
+        br
+        br
+        input(type="submit" value="Submit")
